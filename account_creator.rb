@@ -9,7 +9,7 @@ require 'httpclient'
 def get_csrf_token(doc)
 	csrf_token = doc.css('form > input[type="hidden"]').first
 	csrf_token = csrf_token.attr('value')
-	csrf_token
+	csrf_tmaoken
 end
 
 def parse_cookies(all_cookies)
@@ -59,7 +59,7 @@ def create_account
 	o = [('a'..'z'), ('A'..'Z')].map { |i| i.to_a }.flatten
 	username = (0...12).map { o[rand(o.length)] }.join
 	password = (0...12).map { o[rand(o.length)] }.join
-	email = "#{username.downcase}@divismail.ru"
+	email = "#{username.downcase}@lackmail.r"
 	md5_email = Digest::MD5.hexdigest(email)
 
 	final_signup_parameters = {
