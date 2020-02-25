@@ -3,14 +3,11 @@ GEM
   specs:
     certified (1.0.0)
     httpclient (2.8.0)
-    mini_portile2 (2.1.0)
-    nokogiri (1.6.8)
-      mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
-    nokogiri (1.6.8-x64-mingw32)
-      mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
-    pkg-config (1.1.7)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.8-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
 
 PLATFORMS
   ruby
@@ -19,7 +16,7 @@ PLATFORMS
 DEPENDENCIES
   certified
   httpclient
-  nokogiri
+  nokogiri (>= 1.10.8)
 
 BUNDLED WITH
-   1.12.5
+   1.17.3
