@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.12.5'
 gem 'certified'
 gem 'httpclient'
